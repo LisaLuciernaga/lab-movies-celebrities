@@ -1,0 +1,21 @@
+<h2>Add a new movie</h2>
+
+<form action="/movies/create" method="POST">
+  <div class="mb-3">
+    <label for="title" class="form-label">Title</Title></label>
+    <input type="text" class="form-control" id="title" aria-describedby="emailHelp" name="title">
+  </div>
+  <div class="mb-3">
+    <label for="genre" class="form-label">Genre</label>
+    <input type="text" class="form-control" id="genre" aria-describedby="emailHelp" name="genre">
+  </div>
+  <div class="mb-3">
+    <label for="plot" class="form-label">Plot</label>
+    <input type="text" class="form-control" id="plot" aria-describedby="emailHelp" name="plot">
+  </div>
+    <div class="mb-3">
+    <label for="cast" class="form-label">Cast</label>
+    <input type="text" class="form-control" id="cast" aria-describedby="emailHelp" name="cast">
+  </div>
+  <button type="submit" class="btn btn-primary">Create new movie</button>
+</form>
